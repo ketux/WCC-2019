@@ -1,3 +1,35 @@
+$ npm run build
+
+> event-voter@0.1.0 build C:\wcc\event-voter-workshop
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  40.1 KB  build\static\js\2.ea6c1ce1.chunk.js
+  780 B    build\static\js\runtime-main.16419fbf.js
+  290 B    build\static\js\main.d05c8582.chunk.js
+  99 B     build\static\css\main.02072192.chunk.css
+
+The project was built assuming it is hosted at the server root.
+You can control this with the homepage field in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://bit.ly/CRA-deploy
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

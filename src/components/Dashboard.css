@@ -1,0 +1,28 @@
+.dashboard {
+    width: 100%;
+    padding: 2em 0;
+  }
+  
+  .dashboard__event-title,
+  .dashboard__event-description,
+  .dashboard__event-score {
+    width: 75%;
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  /* ... */
+@media only screen and (max-width: 550px) {
+    .dashboard {
+      padding: 0;
+    }
+  
+    .dashboard__event-title h2 {
+      font-size: 1.5rem;
+    }
+  
+    .dashboard__event-description p {
+      font-size: .8rem
+    }
+  
+  }
